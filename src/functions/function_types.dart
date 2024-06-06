@@ -13,15 +13,15 @@
 // checking commit
 
 
-void main(){
-  printName("Rokeya");
+// void main(){
+//   printName(name: "Test");
   
-  printName();
+//   printName();
 
-}
-void printName([String name = "Rokeya"]){
-  print('Hey,My name is $name');
-}
+// }
+// void printName({String? name} ){
+//   print('Hey,My name is ${name??'sdfsdf'}');
+// }
 
 
 // No Parameter And Return Type
