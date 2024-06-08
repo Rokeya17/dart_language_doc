@@ -2,7 +2,7 @@
 void main(){
   print("Rokeya Yasmin");
   print(" Hello I am “John Doe” \n  Hello I’am “John Doe”");
-  const int value = 7;
+  // const int value = 7;
 
 
   int numberP = 10;

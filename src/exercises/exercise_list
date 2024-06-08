@@ -1,0 +1,10 @@
+# Write a Dart program to print the following string in a specific format Sample String : "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are"
+# Write a Dart program to get the Python version you are using.
+# Write a Dart program to display the current date and time. Sample Output : Current date and time : 2014-07-05 14:34:14
+# Write a Dart program which accepts the radius of a circle from the user and compute the area.
+# Write a Dart program which accepts the user's first and last name and print them in reverse order with a space between them
+# Write a Dart program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers. Sample data : 3, 5, 7, 23 Output : List : ['3', ' 5', ' 7', ' 23'] Set : ('3', ' 5', ' 7', ' 23')
+# Write a Dart program to accept a filename from the user and print the extension of that. Sample filename : abc.java Output : java
+# Write a Dart program to display the first and last colors from the following list. color_list = ["Red","Green","White" ,"Black"]
+# Write a Dart program to display the examination schedule. (extract the date from exam_st_date).
+# Write a Dart program that accepts an integer (n) and computes the value of n+nn+nnn.
