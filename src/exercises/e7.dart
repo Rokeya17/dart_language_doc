@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import '../functions/print_name.dart';
-
 void main() {
   print("Enter your First name:");
   String? firstName = stdin.readLineSync();
