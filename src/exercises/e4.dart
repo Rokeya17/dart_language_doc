@@ -3,4 +3,6 @@ import 'dart:io';
 
 void main() {
   print(Platform.version);
+  print(Platform.script);
+  print(Platform.environment);
 }
