@@ -2,8 +2,8 @@ void main() {
   int num1 = 10;
   int num2 = 20;
   int div2 = num2 ~/ num1;
-  print("$num"3);
-  int num3 = number();
+  print("$div2");
+  number();
 }
 
 void number() {
