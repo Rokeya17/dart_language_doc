@@ -1,3 +1,4 @@
+// --------------switch_case_String------------------
 void main() {
   var weather = "sunny";
   switch (weather) {
@@ -13,7 +14,7 @@ void main() {
       break;
   }
 
-// --------------switch_case------------------
+// --------------switch_case_int------------------
 
   var dayOfWeek = 5;
   switch (dayOfWeek) {
