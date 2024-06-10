@@ -1,22 +1,20 @@
-// import 'dart:io';
-
 void main() {
-  String birthday = datetimeformat();
+  String? birthday = datetimeformat();
   print(birthday);
 }
 
-String datetimeformat() {
-  String dateOfBirth = "2001-03-23T18:00:00.000Z";
-  DateTime parsedDate = DateTime.parse(dateOfBirth);
+String? datetimeformat() {
+  String dateofbirth = "2001-03-23T18:00:00.000Z";
+  DateTime parsedDate = DateTime.parse(dateofbirth);
 
+  int year = parsedDate.year;
   int month = parsedDate.month;
   int day = parsedDate.day;
 
   String monthName = getMonthName(month);
 
-  print(monthName);
-
-  return dateOfBirth;
+  String formattedDate = "$year $monthName $day";
+  return formattedDate;
 }
 
 String getMonthName(int month) {
@@ -46,6 +44,6 @@ String getMonthName(int month) {
     case 12:
       return "December";
     default:
-      return "Invalid";
+      return "Invalid month";
   }
 }
