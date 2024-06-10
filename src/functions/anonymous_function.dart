@@ -9,7 +9,5 @@ void main() {
   }).toList();
   for (var item in uppercase) {
     print("$item");
-    // print(item.indexOf("a"));
-    // print(item.trim());
   }
 }
