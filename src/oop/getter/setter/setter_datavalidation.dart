@@ -20,6 +20,6 @@ class Voter {
 void main() {
   Voter vt = Voter();
   vt.name = "R";
-  vt.age = 0.1;
+  vt.age = 20;
   vt.displayinfo();
 }
